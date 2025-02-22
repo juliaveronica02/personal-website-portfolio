@@ -1,0 +1,16 @@
+hr.contact {
+  background-color: #bf1111;
+  border-style: none;
+  height: 2px;
+  width: 10%;
+}
+input.form-control {
+  width: 100%;
+}
+textarea.form-control {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

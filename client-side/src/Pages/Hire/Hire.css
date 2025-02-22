@@ -1,0 +1,14 @@
+.hr2 {
+  background-color: #bf1111;
+  border-style: none;
+  height: 2px;
+  width: 9% !important;
+}
+.verticalLine {
+  border-left: thick solid #ff0000;
+}
+hr.vertical {
+  width: 0px;
+  height: 100%;
+  /* or height in PX */
+}
