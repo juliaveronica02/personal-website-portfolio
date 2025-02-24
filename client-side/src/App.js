@@ -4,6 +4,7 @@ import Navbar from "./Component/Navbar/navbar";
 import Footer from "./Component/Footer/Footer";
 import Home from "./Pages/Home/Content";
 
+
 function App() {
   return (
     // <div className="App container">

@@ -1,57 +1,67 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import "../../Styling/Navbar.css";
 
-export default function Navbar() {
-  return (
-    <div>
-      {/* <nav className="navbar navbar-expand-lg navbar-dark bg-primary"> */}
-      <nav className="navbar navbar-expand-lg navbar-inverse sticky-top navbar-dark bg-info" style={{position: 'fixed', top: 0, width: '100%', zIndex: 1050 }}>
-        <Link className="navbar-brand ml-3" style={{ fontSize: "1.5rem" }} to="/">
-          Julia Veronica
-        </Link>
-        <button
-          className="navbar-toggler "
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarColor01"
-          aria-controls="navbarColor01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+const Navbar = () => {
+    const [isSticky, setIsSticky] = useState(false);
 
-        <div className="collapse navbar-collapse ml-3" id="navbarColor01">
-          <ul className="navbar-nav ml-auto">
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setIsSticky(true);
+            } else {
+                setIsSticky(false);
+            }
+        };
 
-            <li className="nav-item">
-              <Link className="nav-link pr-3" to="/experience">
-                Experience
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link pr-3" to="/projects">
-                Projects
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link pr-3" to="/skills">
-                Skills
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link pr-3" to="/about">
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link pr-3" to="/contact">
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  );
-}
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+    return (
+        <nav
+            className={`navbar navbar-expand-lg fixed-top navbar-custom ${isSticky ? "nav-sticky" : ""}`}>
+            <div className="container">
+                <a className="navbar-brand mouse-down" href="#home">Julia Veronica</a>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span data-feather="menu" className="fea icon-md"></span>
+                </button>
+
+                <div className="collapse navbar-collapse" id="navbarCollapse">
+                    <ul className="navbar-nav mx-auto">
+                        <li className="nav-item active">
+                            <a className="nav-link" href="#home">Home</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#services">Services</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#expertise">Portfolio</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+
+                    <ul className="list-unstyled mb-0 mt-2 mt-sm-0 social-icon light-social-icon">
+                        <li className="list-inline-item"><a href="https://www.linkedin.com/in/julia-veronica/" target="_blank" rel="noopener noreferrer"><i
+                            className="mdi mdi-linkedin"></i></a></li>
+                        <li className="list-inline-item"><a href="https://github.com/juliaveronica02" target="_blank" rel="noopener noreferrer"><i
+                            className="mdi mdi-github"></i></a></li>
+                        <li className="list-inline-item"><a href="https://www.facebook.com/juliaveronica02/" target="_blank" rel="noopener noreferrer"><i
+                            className="mdi mdi-facebook"></i></a></li>
+                        <li className="list-inline-item"><a href="https://www.instagram.com/juliaveronica.2" target="_blank" rel="noopener noreferrer"><i
+                            className="mdi mdi-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    );
+};
+
+export default Navbar;
