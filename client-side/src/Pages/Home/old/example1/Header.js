@@ -30,7 +30,7 @@ export default class componentName extends Component {
                 </h6>
                 <div>
                   <a href={CV} download="My CV">
-                    <button class="btn btn-primary mt-3">
+                    <button className="btn btn-primary mt-3">
                       <i className="fa fa-download"></i> Download CV
                     </button>
                   </a>

@@ -47,7 +47,7 @@ const About = () => {
                                 innovative solutions. I excel both independently and in collaborative team environments,
                                 always seeking opportunities for growth and improvement.
                             </p>
-                            <img src="images/jpg/sign.jpg" height="27" alt="Sign" />
+                            {/* <img src="images/jpg/sign.jpg" height="27" alt="Sign" /> */}
                             <div className="mt-4" >
                                 <a
                                     href="https://www.linkedin.com/in/julia-veronica/"

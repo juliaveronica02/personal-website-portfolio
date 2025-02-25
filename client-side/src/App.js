@@ -2,6 +2,7 @@ import React from "react";
 import { HashRouter as Router } from "react-router-dom";
 import Navbar from "./Component/Navbar/navbar";
 import Footer from "./Component/Footer/Footer";
+import CopyRight from './Component/Footer/CopyRight'
 import BackToTop from "./Component/BackToTop/index";
 import Home from "./Pages/Home/Content";
 
@@ -19,8 +20,9 @@ function App() {
           <Contact /> */}
         </div>
       </Router>
-      <BackToTop />
       <Footer />
+      <CopyRight/>
+      <BackToTop />
     </div>
   );
 }

@@ -9,8 +9,8 @@ export default class componentName extends Component {
       <div className="container mt-5 mb-4" id="/contact">
         <h3 className="text-center">Contact Me</h3>
         <hr className="contact" />
-        <div class="row">
-          <div class="col-md-4">
+        <div className="row">
+          <div className="col-md-4">
             {/* map */}
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0093712115136!2d104.02249791421347!3d1.1537959624967078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d9891f0f065b81%3A0xce0af55f7ad4f2c2!2sBengkong%20Jaya%20Housing%20Complex!5e0!3m2!1sen!2sid!4v1585363445287!5m2!1sen!2sid"

@@ -108,11 +108,11 @@ const Portfolio = () => {
     return (
         <section className="section bg-light" id="expertise">
             <div className="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-                        <div class="section-title">
-                            <h4 class="title title-line text-uppercase mb-4 pb-4">Recent Works</h4>
-                            <p class="text-muted mx-auto para-desc mb-0">Explore my diverse portfolio showcasing projects across multiple categories, including Frontend, Backend, Full Stack Development, Mobile Apps, Game Development, Multimedia, Start-Ups, and Publications. I specialize in creating dynamic, user-friendly applications, leveraging various technologies such as HTML, CSS, JavaScript, React.js, Node.js, and more.</p><br />
+                <div className="row justify-content-center">
+                    <div className="col-12 text-center">
+                        <div className="section-title">
+                            <h4 className="title title-line text-uppercase mb-4 pb-4">Recent Works</h4>
+                            <p className="text-muted mx-auto para-desc mb-0">Explore my diverse portfolio showcasing projects across multiple categories, including Frontend, Backend, Full Stack Development, Mobile Apps, Game Development, Multimedia, Start-Ups, and Publications. I specialize in creating dynamic, user-friendly applications, leveraging various technologies such as HTML, CSS, JavaScript, React.js, Node.js, and more.</p><br />
                             <p className="text-muted mx-auto para-desc mb-0">
                                 {selectedCategory === "All"
                                     ? "Explore my diverse portfolio showcasing projects across multiple categories."
