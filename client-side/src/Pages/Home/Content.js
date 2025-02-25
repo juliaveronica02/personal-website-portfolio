@@ -4,6 +4,7 @@ import About from "./About"
 import Services from '../Services/Services'
 import Resume from '../Resume/Resume'
 import Portfolio from '../Portfolio/index'
+import Contact from '../Contact/Contact'
 import ProfileImg from '../../Images/1.jpeg'
 import BackgroundImg from '../../Images/3.jpg'
 import '../../Styling/Content.css';
@@ -86,6 +87,7 @@ export default class Jumbotron extends Component {
             <Services/>
             <Resume/>
             <Portfolio/>
+            {/* <Contact/> */}
             </>
         );
     }

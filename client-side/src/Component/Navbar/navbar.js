@@ -53,7 +53,7 @@ const Navbar = () => {
 
                 <div className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`} id="navbarCollapse">
                     <ul className="navbar-nav mx-auto">
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             <a className={`nav-link ${activeSection === "home" ? "active" : ""}`} href="#home">Home</a>
                         </li>
                         <li className="nav-item">
@@ -65,9 +65,9 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className={`nav-link ${activeSection === "expertise" ? "active" : ""}`} href="#expertise">Portfolio</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className={`nav-link ${activeSection === "contact" ? "active" : ""}`} href="#contact">Contact</a>
-                        </li>
+                        </li> */}
                     </ul>
 
                     <ul className="list-unstyled mb-0 mt-2 mt-sm-0 social-icon light-social-icon">

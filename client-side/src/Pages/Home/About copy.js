@@ -1,17 +1,7 @@
 import React, { useEffect } from "react";
-import Slider from "react-slick";
 import ProfileImg from "../../Images/1.jpeg";
 import { ReactTyped } from "react-typed";
 import "../../Styling/Content.css";
-
-const hobbies = [
-    { icon: "monitor", title: "Developing" },
-    { icon: "hexagon", title: "Gym" },
-    { icon: "box", title: "Games" },
-    { icon: "video", title: "Movie" },
-    { icon: "target", title: "Travel" },
-    { icon: "music", title: "Music" },
-];
 
 const About = () => {
     useEffect(() => {
@@ -19,25 +9,6 @@ const About = () => {
             window.feather.replace();
         }
     }, []);
-
-    const settings = {
-        dots: true,
-        infinite: false,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: { slidesToShow: 2, slidesToScroll: 1 }
-            },
-            {
-                breakpoint: 768,
-                settings: { slidesToShow: 1, slidesToScroll: 1 }
-            }
-        ]
-    };
-
     return (
         <section className="section pb-3" id="about">
             <div className="container">
@@ -92,7 +63,7 @@ const About = () => {
             </div>
 
             {/* Hobbies & Interests Section */}
-            {/* <div className="container mt-100 mt-60">
+            <div className="container mt-100 mt-60">
                 <div className="row justify-content-center">
                     <div className="col-12 text-center">
                         <div className="section-title">
@@ -213,27 +184,6 @@ const About = () => {
                     </div>
 
                 </div>
-            </div> */}
-            {/* Hobbies & Interests Carousel */}
-            <div className="container mt-100 mt-60 mb-60">
-                <div className="row justify-content-center">
-                    <div className="col-12 text-center">
-                        <div className="section-title">
-                            <h4 className="title title-line text-uppercase mb-4 pb-4">Hobbies & Interests</h4>
-                            <p className="text-muted mx-auto para-desc mb-0">I enjoy being physically active and spend a lot of time playing sports and team games.</p>
-                        </div>
-                    </div>
-                </div>
-                <Slider {...settings} className="hobbies-carousel">
-                    {hobbies.map((hobby, index) => (
-                        <div key={index} className="p-3">
-                            <div className="interests-desc bg-light px-4 py-3 rounded text-center">
-                                <i data-feather={hobby.icon} className="icon fea icon-md-sm"></i>
-                                <h6 className="title mt-2">{hobby.title}</h6>
-                            </div>
-                        </div>
-                    ))}
-                </Slider>
             </div>
         </section>
     );
