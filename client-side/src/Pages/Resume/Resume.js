@@ -17,7 +17,9 @@ const Resume = () => {
                     </div>
                 </div>
 
-                <div className="row">
+                Comming Soon <br/> Stay tuned exciting journey's are in development.!
+
+                {/* <div className="row">
                     <div className="col-12">
                         <div className="main-icon rounded-pill text-center mt-4 pt-2">
                             <i data-feather="star" className="fea icon-md-sm"></i>
@@ -313,7 +315,7 @@ const Resume = () => {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     )
