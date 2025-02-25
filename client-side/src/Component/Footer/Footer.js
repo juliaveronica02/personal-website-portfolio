@@ -46,7 +46,7 @@ const Footer = () => {
             <div className="container" style={{ position: "relative", zIndex: 2 }}>
                 <div className="row justify-content-center">
                     <div className="col-12 text-center">
-                        <p style={{color: "#ffffff", fontFamily: '"Poppins", sans-serif',fontWeight: 600, letterSpacing: "1px", lineHeight: "24px"}}>
+                        <p style={{color: "#ffffff", fontSize:'30px', fontFamily: '"Poppins", sans-serif',fontWeight: 600, letterSpacing: "1px", lineHeight: "24px"}}>
                             Julia Veronica
                         </p>
                         <p className="para-desc mx-auto mt-5">
