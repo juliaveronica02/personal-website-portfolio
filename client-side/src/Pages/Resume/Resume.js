@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../Styling/Resume.css'
-import '../../Styling/Portfolio.css'
+import '../../Styling/Service.css'
 
 const Resume = () => {
     return (

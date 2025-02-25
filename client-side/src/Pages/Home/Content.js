@@ -3,6 +3,7 @@ import { ReactTyped } from "react-typed";
 import About from "./About"
 import Services from '../Services/Services'
 import Resume from '../Resume/Resume'
+import Portfolio from '../Portfolio/index'
 import ProfileImg from '../../Images/1.jpeg'
 import BackgroundImg from '../../Images/3.jpg'
 import '../../Styling/Content.css';
@@ -84,6 +85,7 @@ export default class Jumbotron extends Component {
             <About/>
             <Services/>
             <Resume/>
+            <Portfolio/>
             </>
         );
     }
