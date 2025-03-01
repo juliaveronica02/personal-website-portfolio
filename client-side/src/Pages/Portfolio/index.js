@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import WheatherApp from "../../Images/WeatherApp.png";
 import CompanyProfile from "../../Images/chevrolet.png";
+import Stopwatch from "../../Images/Stopwatch.PNG";
 import PersonalWeb from "../../Images/personalWeb.png";
 import ReactNativeStyling from "../../Images/react.png"
 import CSVToJSON from "../../Images/ConvertCsvToJson.PNG"
@@ -20,7 +21,7 @@ const rawProjects = [
     { title: "Weather App", category: "HTML, CSS, JavaScript", img: WheatherApp, link: "/WheatherApp/index.html", description: "This portfolio project was created during my time at Impact Byte Bootcamp and utilizes the OpenWeather API." },
     { title: "Company Profile", category: "HTML, CSS, JavaScript", img: CompanyProfile, link: "/companyProject/index.html", description: "Chevrolet is a company profile website that I track as part of my portfolio." },
     { title: "Personal Website", category: "HTML, CSS, JavaScript", img: PersonalWeb, link: "/Responsive-Web-Design/index.html", description: "Build personal website using HTML and CSS without Bootstrap." },
-    { title: "Stopwatch", category: "HTML, CSS, JavaScript", img: CompanyProfile, link: "/Stopwatch/index.html", description: "I developed a stopwatch using JavaScript, HTML, and CSS." },
+    { title: "Stopwatch", category: "HTML, CSS, JavaScript", img: Stopwatch, link: "/Stopwatch/index.html", description: "I developed a stopwatch using JavaScript, HTML, and CSS." },
     
     { title: "React Native", category: "Mobile App", img: ReactNativeStyling, link: "https://github.com/juliaveronica02/learn-react-native", description: "This project covers styling, importing images, configuring Android permissions, and using useState. Check out the project on GitHub!" },
     
