@@ -11,6 +11,10 @@ import XMLtoCSVEvaluateXQuery from "../../Images/XMLtoCSVEvaluateXQuery.PNG"
 import NifiHierarchy from "../../Images/NifiHierarchy.PNG"
 import NifiFlat from "../../Images/NifiFlat.PNG"
 import VisualMemory from "../../Images/VisualMemory.PNG"
+import PerancanganLogo from "../../Images/PerancanganLogo.PNG"
+import ImmersiveLearningVR from "../../Images/ImmersiveLearningVR.PNG"
+import ITCurriculum from "../../Images/ITCurriculum.PNG"
+import ComingSoon from "../../Images/ComingSoon.png"
 
 const rawProjects = [
     { title: "Weather App", category: "HTML, CSS, JavaScript", img: WheatherApp, link: "/WheatherApp/index.html", description: "This portfolio project was created during my time at Impact Byte Bootcamp and utilizes the OpenWeather API." },
@@ -22,9 +26,9 @@ const rawProjects = [
     
     { title: "Personal Website", category: "Frontend", img: PersonalWeb, link: "https://mejuliaveronica02.netlify.app/", description: "Another version of my personal website, now built using React.js for a more dynamic and interactive experience." },
     
-    { title: "Comming Soon", category: "Backend", img: WheatherApp, link: "/Portfolio/index.html", description: "A personal portfolio using backend technologies." },
+    { title: "Comming Soon", category: "Backend", img: WheatherApp, link: "", description: "A personal portfolio using backend technologies." },
     
-    { title: "Portfolio Website", category: "FullStack", img: WheatherApp, link: "/Portfolio/index.html", description: "A full-stack portfolio project." },
+    { title: "Portfolio Website", category: "FullStack", img: ComingSoon, link: "/Portfolio/index.html", description: "A full-stack portfolio project." },
     
     { title: "CSV to JSON", category: "ETL & Data Integration", img: CSVToJSON, link: "https://github.com/juliaveronica02/Nifi-Explore", description: "An ETL pipeline using Apache NiFi to automate the conversion of CSV data into structured JSON format, enabling seamless data integration and transformation for backend systems." },
     { title: "CSV to XML", category: "ETL & Data Integration", img: CSVToXML, link: "https://github.com/juliaveronica02/Nifi-Explore", description: "An ETL workflow built using Apache NiFi to automate the conversion of CSV data to XML format." },
@@ -39,9 +43,10 @@ const rawProjects = [
     
     { title: "Portfolio Website", category: "Multimedia", img: WheatherApp, link: "/Portfolio/index.html", description: "A multimedia portfolio." },
     
-    { title: "Portfolio Website", category: "Publications", img: WheatherApp, link: "/Portfolio/index.html", description: "A publication portfolio." },
-
-    { title: "Comming Soon", category: "Publications", img: WheatherApp, link: "/Portfolio/index.html", description: "Stay tuned exciting new projects are in development.!" },
+    { title: "IT  Curriculum  for  Boot  Camp:  An  Iterative  Development  In Applying  OBE  In  Computer  Science  Education  for  Non-Formal Institution", category: "Publications", img: ITCurriculum, link: "https://ejournal.ust.ac.id/index.php/JTIUST/article/view/1052/pdf1", description: "" },
+    { title: "Perancangan Dan Implementasi Desain Logo Di Teknokasi Menggunakan MDLC", category: "Publications", img: PerancanganLogo, link: "https://journal.uib.ac.id/index.php/nacospro/article/view/7036/2666", description: "" },
+    { title: "Immersive Learning Experience pada Pembelajaran Daring dengan Penggunaan Virtual Reality", category: "Publications", img: ImmersiveLearningVR, link: "https://ejournal.ust.ac.id/index.php/JTIUST/article/view/1052/pdf1", description: "" },
+    // { title: "Comming Soon", category: "Publications", img: WheatherApp, link: "/Portfolio/index.html", description: "Stay tuned exciting new projects are in development.!" },
 ];
 
 const categoryDescriptions = {
