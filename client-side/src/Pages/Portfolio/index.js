@@ -4,6 +4,13 @@ import WheatherApp from "../../Images/WeatherApp.png";
 import CompanyProfile from "../../Images/chevrolet.png";
 import PersonalWeb from "../../Images/personalWeb.png";
 import ReactNativeStyling from "../../Images/react.png"
+import CSVToJSON from "../../Images/ConvertCsvToJson.PNG"
+import CSVToXML from "../../Images/CSVtoXML.PNG"
+import XMLToCSV from "../../Images/XMLtoCSV.PNG"
+import XMLtoCSVEvaluateXQuery from "../../Images/XMLtoCSVEvaluateXQuery.PNG"
+import NifiHierarchy from "../../Images/NifiHierarchy.PNG"
+import NifiFlat from "../../Images/NifiFlat.PNG"
+import VisualMemory from "../../Images/VisualMemory.PNG"
 
 const rawProjects = [
     { title: "Weather App", category: "HTML, CSS, JavaScript", img: WheatherApp, link: "/WheatherApp/index.html", description: "This portfolio project was created during my time at Impact Byte Bootcamp and utilizes the OpenWeather API." },
@@ -19,9 +26,16 @@ const rawProjects = [
     
     { title: "Portfolio Website", category: "FullStack", img: WheatherApp, link: "/Portfolio/index.html", description: "A full-stack portfolio project." },
     
+    { title: "CSV to JSON", category: "ETL & Data Integration", img: CSVToJSON, link: "https://github.com/juliaveronica02/Nifi-Explore", description: "An ETL pipeline using Apache NiFi to automate the conversion of CSV data into structured JSON format, enabling seamless data integration and transformation for backend systems." },
+    { title: "CSV to XML", category: "ETL & Data Integration", img: CSVToXML, link: "https://github.com/juliaveronica02/Nifi-Explore", description: "An ETL workflow built using Apache NiFi to automate the conversion of CSV data to XML format." },
+    { title: "XML to CSV", category: "ETL & Data Integration", img: XMLToCSV, link: "https://github.com/juliaveronica02/Nifi-Explore", description: "Designed and implemented an Apache NiFi data flow to efficiently convert XML files into CSV format." },
+    { title: "XML to CSV Using Evaluate XQuery", category: "ETL & Data Integration", img: XMLtoCSVEvaluateXQuery, link: "https://github.com/juliaveronica02/Nifi-Explore", description: "Developed a robust Apache NiFi data pipeline that efficiently converts XML files into CSV format using the EvaluateXQuery processor." },
+    { title: "Hierarchy", category: "ETL & Data Integration", img: NifiHierarchy, link: "https://github.com/juliaveronica02/Nifi-Explore", description: "Implemented efficient data flow processing, including parsing, transformation, and validation, ensuring seamless data integration for downstream analytics and reporting." },
+    { title: "Flat", category: "ETL & Data Integration", img: NifiFlat, link: "https://github.com/juliaveronica02/Nifi-Explore", description: "Developed an Apache NiFi data pipeline to automate the extraction, transformation, and loading (ETL) process, converting XML files into structured CSV format for seamless data integration." },
+
     { title: "Portfolio Website", category: "Start-Up", img: WheatherApp, link: "/Portfolio/index.html", description: "A project in a startup environment." },
     
-    { title: "Portfolio Website", category: "Game Development", img: WheatherApp, link: "/Portfolio/index.html", description: "A game development portfolio." },
+    { title: "Visual Memory", category: "Game Development", img: VisualMemory, link: "https://drive.google.com/drive/u/0/folders/1U0q-wORdrb_njOxPAqivLCmqszZks84w", description: "Visual memory helps children recall things they have seen before. It plays a crucial role in their ability to recognize and remember images, objects, and patterns." },
     
     { title: "Portfolio Website", category: "Multimedia", img: WheatherApp, link: "/Portfolio/index.html", description: "A multimedia portfolio." },
     
@@ -35,6 +49,7 @@ const categoryDescriptions = {
     "Frontend": "Interactive and responsive user interfaces crafted with modern frameworks and libraries.",
     "Backend": "Robust server-side applications ensuring seamless data management and security.",
     "FullStack": "Complete web solutions integrating frontend and backend technologies.",
+    "ETL & Data Integration": "Expertise in Extract, Transform, Load (ETL) processes using Apache NiFi for efficient data extraction, transformation, and loading. Skilled in data mapping, workflow automation, and system integration to ensure seamless data flow across enterprise systems.",
     "Mobile App": "Engaging mobile-first applications optimized for performance.",
     "Game Development": "Interactive and immersive gaming experiences.",
     "Multimedia": "Creative works blending design, animation, and interactivity.",
