@@ -19,7 +19,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="airplay" className="fea icon-md"></i>
                                 </div>
@@ -39,7 +39,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="aperture" className="fea icon-md"></i>
                                 </div>
@@ -58,7 +58,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="skip-back" className="fea icon-md"></i>
                                 </div>
@@ -77,7 +77,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="skip-forward" className="fea icon-md"></i>
                                 </div>
@@ -96,7 +96,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="skip-forward" className="fea icon-md"></i>
                                 </div>
@@ -116,7 +116,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="settings" className="fea icon-md"></i>
                                 </div>
@@ -135,7 +135,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="settings" className="fea icon-md"></i>
                                 </div>
@@ -154,7 +154,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="watch" className="fea icon-md"></i>
                                 </div>
@@ -173,7 +173,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="watch" className="fea icon-md"></i>
                                 </div>
@@ -192,7 +192,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="watch" className="fea icon-md"></i>
                                 </div>
@@ -211,7 +211,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="watch" className="fea icon-md"></i>
                                 </div>
@@ -230,7 +230,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="watch" className="fea icon-md"></i>
                                 </div>
@@ -249,7 +249,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="watch" className="fea icon-md"></i>
                                 </div>
@@ -268,7 +268,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="watch" className="fea icon-md"></i>
                                 </div>
@@ -287,7 +287,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="watch" className="fea icon-md"></i>
                                 </div>
@@ -306,7 +306,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="watch" className="fea icon-md"></i>
                                 </div>
@@ -325,7 +325,7 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5">
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
                                     <i data-feather="watch" className="fea icon-md"></i>
                                 </div>

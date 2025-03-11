@@ -15,7 +15,7 @@ const generateProjectsWithIds = (projects) => {
 const projects = generateProjectsWithIds(rawProjects);
 
 const Portfolio = () => {
-    const [selectedCategory, setSelectedCategory] = useState("HTML, CSS, JavaScript");
+    const [selectedCategory, setSelectedCategory] = useState("Web Development");
     const [startIndex, setStartIndex] = useState(0); // Controls slider position
     const categories = [...new Set(projects.map((project) => project.category))];
 
@@ -38,7 +38,7 @@ const Portfolio = () => {
                         <div className="section-title">
                             <h4 className="title title-line text-uppercase mb-4 pb-4">Recent Works</h4>
                             <p className="text-muted mx-auto para-desc mb-0">
-                                Explore my diverse portfolio showcasing projects across multiple categories, including Frontend, Backend, Full Stack Development, Mobile Apps, Game Development, Multimedia, Start-Ups, and Publications.
+                                Explore my diverse portfolio showcasing projects across multiple categories, including Web Development, Mobile App, ETL & Data Integration, Game Development, Multimedia, and Publications.
                             </p><br />
                             <p className="text-muted mx-auto para-desc mb-0">
                                 {categoryDescriptions[selectedCategory] || "Explore projects in this category."}

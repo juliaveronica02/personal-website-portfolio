@@ -34,12 +34,11 @@ export const rawProjects = [
 
     { title: "Visual Memory", category: "Game Development", img: VisualMemory, link: "https://drive.google.com/drive/u/0/folders/1U0q-wORdrb_njOxPAqivLCmqszZks84w", description: "Visual memory helps children recall things they have seen before. It plays a crucial role in their ability to recognize and remember images, objects, and patterns." },
     
-    { title: "Portfolio Website", category: "Multimedia", img: WheatherApp, link: "/Portfolio/index.html", description: "A multimedia portfolio." },
+    { title: "Comming Soon", category: "Multimedia", img: ComingSoon, link: "/Portfolio/index.html", description: "Stay tuned exciting new projects are in development.!" },
     
     { title: "IT  Curriculum  for  Boot  Camp:  An  Iterative  Development  In Applying  OBE  In  Computer  Science  Education  for  Non-Formal Institution", category: "Publications", img: ITCurriculum, link: "https://ejournal.ust.ac.id/index.php/JTIUST/article/view/1052/pdf1", description: "" },
     { title: "Perancangan Dan Implementasi Desain Logo Di Teknokasi Menggunakan MDLC", category: "Publications", img: PerancanganLogo, link: "https://journal.uib.ac.id/index.php/nacospro/article/view/7036/2666", description: "" },
     { title: "Immersive Learning Experience pada Pembelajaran Daring dengan Penggunaan Virtual Reality", category: "Publications", img: ImmersiveLearningVR, link: "https://ejournal.ust.ac.id/index.php/JTIUST/article/view/1052/pdf1", description: "" },
-    // { title: "Comming Soon", category: "Publications", img: WheatherApp, link: "/Portfolio/index.html", description: "Stay tuned exciting new projects are in development.!" },
 ];
 
 export const categoryDescriptions = {
