@@ -16,19 +16,11 @@ const projects = generateProjectsWithIds(rawProjects);
 
 const Portfolio = () => {
     const [selectedCategory, setSelectedCategory] = useState("HTML, CSS, JavaScript");
-    const [startIndex, setStartIndex] = useState(0); // Controls slider position
+    const [startIndex, setStartIndex] = useState(0);
     const categories = [...new Set(projects.map((project) => project.category))];
 
-    const filteredProjects = projects.filter((project) => project.category === selectedCategory);
-    const maxVisible = 6;
-
-    // Reset slider index when changing category
-    const handleCategoryChange = (category) => {
-        if (category !== selectedCategory) {
-            setSelectedCategory(category);
-            setStartIndex(0);
-        }
-    };
+    const filteredProjects = projects.filter(project => project.category === selectedCategory);
+    const maxVisible = 6; 
 
     return (
         <section className="section bg-light" id="expertise">
@@ -37,9 +29,7 @@ const Portfolio = () => {
                     <div className="col-12 text-center">
                         <div className="section-title">
                             <h4 className="title title-line text-uppercase mb-4 pb-4">Recent Works</h4>
-                            <p className="text-muted mx-auto para-desc mb-0">
-                                Explore my diverse portfolio showcasing projects across multiple categories, including Frontend, Backend, Full Stack Development, Mobile Apps, Game Development, Multimedia, Start-Ups, and Publications.
-                            </p><br />
+                            <p className="text-muted mx-auto para-desc mb-0">Explore my diverse portfolio showcasing projects across multiple categories, including Frontend, Backend, Full Stack Development, Mobile Apps, Game Development, Multimedia, Start-Ups, and Publications. I specialize in creating dynamic, user-friendly applications, leveraging various technologies such as HTML, CSS, JavaScript, React.js, Node.js, and more.</p><br />
                             <p className="text-muted mx-auto para-desc mb-0">
                                 {categoryDescriptions[selectedCategory] || "Explore projects in this category."}
                             </p>
@@ -48,20 +38,19 @@ const Portfolio = () => {
                 </div>
 
                 {/* Category Tabs */}
-
                 <CategoryTabs
                     categories={categories}
                     selectedCategory={selectedCategory}
-                    setSelectedCategory={handleCategoryChange}
+                    setSelectedCategory={setSelectedCategory}
                     startIndex={startIndex}
                     setStartIndex={setStartIndex}
                     maxVisible={maxVisible}
                 />
 
                 {/* Project Slider */}
-                <ProjectSlider projects={filteredProjects} startIndex={startIndex} setStartIndex={setStartIndex} />
+                <ProjectSlider projects={filteredProjects} />
 
-                <TechStack />
+                <TechStack/>
             </div>
         </section>
     );

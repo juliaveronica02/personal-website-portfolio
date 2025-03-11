@@ -5,7 +5,7 @@
 }
 .service-wrapper {
     transition: all 0.2s ease;
-    height: 22rem;
+    height: 24rem;
   }
   .service-wrapper .content .title {
     transition: all 0.2s ease;
