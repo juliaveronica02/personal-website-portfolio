@@ -40,6 +40,85 @@ const About = () => {
 
     return (
         <section className="section-content" id="about">
+            <div className="container" >
+                <div className="row align-items-center" style={{ margin: '85px 0px -50px 0px'}}>
+                    {/* Left Column */}
+                    <div className="col-md-6" style={{marginBottom: '19.5rem'}}>
+                        <div className="section-title">
+                            <h4 className="title mb-3" style={{ color: '#f89d36' }}>Who Am I?</h4>
+                            <p className="text-muted text-justify">
+                                I am an Information Technology Specialist with a strong background in the education
+                                technology industry and a degree in Information Systems. My expertise spans full-stack
+                                development, curriculum design, and building startups, with a particular focus on the
+                                JavaScript programming language.
+                            </p>
+                            <p className="text-muted text-justify">
+                                A passionate learner and experimenter, I thrive on exploring new technologies and
+                                innovative solutions. I excel both independently and in collaborative team environments,
+                                always seeking opportunities for growth and improvement.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Right Column */}
+                    <div className="col-md-6">
+                        <div className="section-title">
+                            <h4 className="title mb-3" style={{ color: '#f89d36' }}>Professional Highlights</h4>
+                            <ul className="list-unstyled">
+                                <li className="d-flex mb-3">
+                                    <span className="me-2 mt-1 text-primary">✔️</span>
+                                    <div>
+                                        <strong>Full Stack & Backend Developer </strong> with hands-on experience in Java (Quarkus), Node.js, PHP, and the MERN stack.
+                                    </div>
+                                </li>
+                                <li className="d-flex mb-3">
+                                    <span className="me-2 mt-1 text-primary">✔️</span>
+                                    <div>
+                                        Skilled in logistics <strong> tech integration</strong>, including CargoWise, Warehouse Management Systems (WMS), and ETL using Apache NiFi.
+                                    </div>
+                                </li>
+                                <li className="d-flex mb-3">
+                                    <span className="me-2 mt-1 text-primary">✔️</span>
+                                    <div>
+                                        Founder of Teknokasi, an <strong>EdTech startup</strong> focused on tech education and JavaScript curriculum development.
+                                    </div>
+                                </li>
+                                <li className="d-flex mb-3">
+                                    <span className="me-2 mt-1 text-primary">✔️</span>
+                                    <div>
+                                        <strong>Certified in UI/UX Design</strong> with strong design skills using Figma, Adobe XD, and Adobe Photoshop
+                                    </div>
+                                </li>
+                                <li className="d-flex mb-3">
+                                    <span className="me-2 mt-1 text-primary">✔️</span>
+                                    <div>
+                                        Proficient in cloud deployment and DevOps practices using Docker, AWS, and DigitalOcean.
+                                    </div>
+                                </li>
+                                <li className="d-flex mb-3">
+                                    <span className="me-2 mt-1 text-primary">✔️</span>
+                                    <div>
+                                        Awarded 3rd place in Open World Startup Competition and Top 100 in Entrepreneurship Award VI.
+                                    </div>
+                                </li>
+                                <li className="d-flex mb-3">
+                                    <span className="me-2 mt-1 text-primary">✔️</span>
+                                    <div>
+                                        Multilingual: fluent in English, Bahasa Indonesia, Mandarin, and basic Japanese (N5 level).
+                                    </div>
+                                </li>
+                                <li className="d-flex mb-3">
+                                    <span className="me-2 mt-1 text-primary">✔️</span>
+                                    <div>
+                                        Published author of academic journals in education technology and information systems.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             {/* Hobbies & Interests Carousel */}
             <div className="container mt-100 mt-60 mb-60">
                 <div className="row justify-content-center">

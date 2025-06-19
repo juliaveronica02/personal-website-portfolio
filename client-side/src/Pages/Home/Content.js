@@ -30,13 +30,6 @@ export default class Jumbotron extends Component {
                     id="home">
                     <div className="bg-overlay bg-over-image"></div>
 
-                    {/* <a id="video" className="player"
-                   data-property='{"videoURL":"https://www.youtube.com/watch?v=m5wisWO8TSA",
-                   "containment":"#home","showControls":false, "autoPlay":true, "loop":true,
-                   "mute":true, "startAt":0, "opacity":1, "optimizeDisplay":true, "useOnMobile":false, 
-                   "realfullscreeen":true}'>
-                </a> */}
-
                     <div className="container">
                         <div className="row mt-5 mt-sm-0 justify-content-center">
                             <div className="col-lg-12 text-center">
@@ -59,20 +52,10 @@ export default class Jumbotron extends Component {
                                     <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700" data-aos-mirror="true"
                                         data-aos-once="false" data-aos-anchor-placement="top-bottom">
                                         <h6 className="sub-title text-light">
-                                            I am a Passionate <span className="simple-text-rotate text-primary">
-                                                <ReactTyped strings={["IT Specialist"]} style={{ color: '#f89d36' }} typeSpeed={100} loop />
+                                            Hello, <span className="simple-text-rotate text-primary">
+                                                <ReactTyped strings={["to my portfolio website!"]} style={{ color: '#f89d36' }} typeSpeed={100} loop />
                                             </span>
                                         </h6>
-                                        <p className="mt-3 important-text justify-text">
-                                            I am an Information Technology Specialist with a strong background in the education
-                                            technology industry and a degree in Information Systems. My expertise spans full-stack
-                                            development, curriculum design, and building startups, with a particular focus on the
-                                            JavaScript programming language. <br></br>
-                                            A passionate learner and experimenter, I thrive on exploring new technologies and
-                                            innovative solutions. I excel both independently and in collaborative team environments,
-                                            always seeking opportunities for growth and improvement.
-
-                                        </p>
                                     </div>
 
                                     <div data-aos="fade" data-aos-duration="1600" data-aos-delay="1600" data-aos-mirror="true"

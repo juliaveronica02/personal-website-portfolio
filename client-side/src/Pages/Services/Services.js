@@ -19,8 +19,10 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            {/* <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}> */}
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                {/* <div className="icon" style={{ color: '#f89d36' }}> */}
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="airplay" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -39,8 +41,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="aperture" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -58,8 +60,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="skip-back" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -77,8 +79,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="skip-forward" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -96,8 +98,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="server" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -116,8 +118,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="settings" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -135,8 +137,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="user-check" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -154,8 +156,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-4" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="shuffle" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -173,8 +175,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="layers" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -192,8 +194,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="terminal" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -211,8 +213,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="lock" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -230,8 +232,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="tool" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -249,8 +251,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="edit-3" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -268,8 +270,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="play-circle" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -287,8 +289,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="zap" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -306,8 +308,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="camera" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
@@ -325,8 +327,8 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
-                                <div className="icon" style={{ color: '#f89d36' }}>
+                            <div className="service-wrapper d-flex flex-column align-items-center rounded position-relative text-center border border-footer p-4 pb-5">
+                                <div className="icon d-flex align-items-center justify-content-center" style={{ color: '#f89d36', height: '60px' }}>
                                     <i data-feather="film" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
