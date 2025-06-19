@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import { ReactTyped } from "react-typed";
 import About from "./About"
 import Services from '../Services/Services'
-import Resume from '../Resume/Resume'
-import Portfolio from '../Portfolio/index'
-import Contact from '../Contact/Contact'
+// import Resume from '../Resume/Resume'
+// import Portfolio from '../Portfolio/index'
 import ProfileImg from '../../Images/1.jpeg'
 import BackgroundImg from '../../Images/3.jpg'
 import '../../Styling/Content.css';
@@ -17,7 +16,7 @@ export default class Jumbotron extends Component {
                 once: false, // Change to true if you want it to animate only once
                 mirror: true, // Allow animation to re-trigger on scroll
             });
-    
+
             // Ensure elements are detected
             setTimeout(() => window.AOS.refreshHard(), 300);
         }
@@ -26,68 +25,77 @@ export default class Jumbotron extends Component {
     render() {
         return (
             <>
-            <section className="bg-home d-table w-100" 
-                style={{ backgroundImage: `url(${BackgroundImg})` }}
-                id="home">
-                <div className="bg-overlay bg-over-image"></div>
-                
-                <a id="video" className="player"
+                <section className="bg-home d-table w-100"
+                    style={{ backgroundImage: `url(${BackgroundImg})` }}
+                    id="home">
+                    <div className="bg-overlay bg-over-image"></div>
+
+                    {/* <a id="video" className="player"
                    data-property='{"videoURL":"https://www.youtube.com/watch?v=m5wisWO8TSA",
                    "containment":"#home","showControls":false, "autoPlay":true, "loop":true,
                    "mute":true, "startAt":0, "opacity":1, "optimizeDisplay":true, "useOnMobile":false, 
                    "realfullscreeen":true}'>
-                </a>
-                
-                <div className="container">
-                    <div className="row mt-5 mt-sm-0 justify-content-center">
-                        <div className="col-lg-12 text-center">
-                            <div className="title-heading">
-                                <div data-aos="fade"
-                                    data-aos-delay="100"
-                                    data-aos-duration="1500"
-                                    data-aos-mirror="true"
-                                    data-aos-once="false"
-                                    data-aos-anchor-placement="top-bottom">
-                                    <img src={ProfileImg}
-                                         className="img-fluid rounded-circle" 
-                                         alt="Julia Veronica profile photo"/>
-                                </div>
-                                
-                                <div data-aos="fade-up" data-aos-duration="1100" data-aos-delay="700" data-aos-mirror="true"
-                                    data-aos-once="false" data-aos-anchor-placement="top-bottom">
-                                    <h1 className="heading text-primary mt-3">Julia Veronica</h1>
-                                </div>
-                                
-                                <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700" data-aos-mirror="true"
-                                    data-aos-once="false" data-aos-anchor-placement="top-bottom">
-                                    <h6 className="sub-title text-light">
-                                        I am a Passionate <span className="simple-text-rotate text-primary">
-                                        <ReactTyped strings={["Full-Stack Web Developer"]} style={{color: '#f89d36'}} typeSpeed={100} loop />
-                                        </span>
-                                    </h6>
-                                </div>
-                                
-                                <div data-aos="fade" data-aos-duration="1600" data-aos-delay="1600" data-aos-mirror="true"
-                                    data-aos-once="false" data-aos-anchor-placement="top-bottom">
-                                    <div className="mt-4">
-                                        <a href="#contact" className="btn btn-primary rounded mb-2 mouse-down" style={{marginRight:'0.5rem', background: '#f89d36', borderColor: '#f89d36'}}>Contact me</a>
-                                        <a href="#resume" className="btn btn-outline-primary rounded mb-2 mouse-down" style={{color: '#f89d36',borderColor: '#f89d36'}}>Check my Resume</a>
+                </a> */}
+
+                    <div className="container">
+                        <div className="row mt-5 mt-sm-0 justify-content-center">
+                            <div className="col-lg-12 text-center">
+                                <div className="title-heading">
+                                    <div data-aos="fade"
+                                        data-aos-delay="100"
+                                        data-aos-duration="1500"
+                                        data-aos-mirror="true"
+                                        data-aos-once="false"
+                                        data-aos-anchor-placement="top-bottom">
+                                        <img src={ProfileImg}
+                                            className="img-fluid rounded-circle" alt="" />
+                                    </div>
+
+                                    <div data-aos="fade-up" data-aos-duration="1100" data-aos-delay="700" data-aos-mirror="true"
+                                        data-aos-once="false" data-aos-anchor-placement="top-bottom">
+                                        <h1 className="heading text-primary mt-3">Julia Veronica</h1>
+                                    </div>
+
+                                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700" data-aos-mirror="true"
+                                        data-aos-once="false" data-aos-anchor-placement="top-bottom">
+                                        <h6 className="sub-title text-light">
+                                            I am a Passionate <span className="simple-text-rotate text-primary">
+                                                <ReactTyped strings={["IT Specialist"]} style={{ color: '#f89d36' }} typeSpeed={100} loop />
+                                            </span>
+                                        </h6>
+                                        <p className="mt-3 important-text justify-text">
+                                            I am an Information Technology Specialist with a strong background in the education
+                                            technology industry and a degree in Information Systems. My expertise spans full-stack
+                                            development, curriculum design, and building startups, with a particular focus on the
+                                            JavaScript programming language. <br></br>
+                                            A passionate learner and experimenter, I thrive on exploring new technologies and
+                                            innovative solutions. I excel both independently and in collaborative team environments,
+                                            always seeking opportunities for growth and improvement.
+
+                                        </p>
+                                    </div>
+
+                                    <div data-aos="fade" data-aos-duration="1600" data-aos-delay="1600" data-aos-mirror="true"
+                                        data-aos-once="false" data-aos-anchor-placement="top-bottom">
+                                        <div className="mt-4">
+                                            <a href="#contact" className="btn btn-primary rounded mb-2 mouse-down" style={{ marginRight: '0.5rem', background: '#f89d36', borderColor: '#f89d36' }}>Contact me</a>
+                                            <a href="#resume" className="btn btn-outline-primary rounded mb-2 mouse-down" style={{ color: 'white', borderColor: '#f89d36' }}>Check my Resume</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <a href="#about" data-scroll-nav="1" className="mouse-icon mouse-icon-white rounded-pill bg-transparent mouse-down">
-                    <span className="wheel position-relative d-block mover"></span>
-                </a>
-            </section>
-            <About/>
-            <Services/>
-            <Resume/>
-            <Portfolio/>
-            {/* <Contact/> */}
+                    <a href="#about" data-scroll-nav="1" className="mouse-icon mouse-icon-white rounded-pill bg-transparent mouse-down">
+                        <span className="wheel position-relative d-block mover"></span>
+                    </a>
+                </section>
+                <About />
+                <Services/>
+            {/* <Resume/>
+            <Portfolio/> */}
+                {/* <Contact/> */}
             </>
         );
     }

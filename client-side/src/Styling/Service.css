@@ -1,6 +1,6 @@
 .section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     position: relative;
 }
 .service-wrapper {
@@ -49,7 +49,7 @@
   }
   .service-wrapper:hover .big-icon {
     z-index: -1;
-    opacity: 0.04;
+    opacity: 0.10;
   }
   .service-wrapper:hover .big-icon .icons {
     height: 200px;

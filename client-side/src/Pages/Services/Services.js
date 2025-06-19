@@ -8,7 +8,7 @@ const Services = () => {
                 <div className="row justify-content-center">
                     <div className="col-12 text-center">
                         <div className="section-title">
-                            <h4 className="title title-line text-uppercase mb-4 pb-4">What Do I Offer?</h4>
+                            <h4 className="title title-line text-uppercase mb-4 pb-4 mt-4">What Do I Offer?</h4>
                             <p className="text-muted mx-auto para-desc mb-0">I am experienced with all
                                 stages of the development cycle for dynamic web projects.</p>
                         </div>
@@ -69,7 +69,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="camera" className="fea icons"></i>
+                                    <i data-feather="skip-back" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="compass" className="fea icons"></i>
+                                    <i data-feather="skip-forward" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ const Services = () => {
                         <div data-aos="fade-up" data-aos-duration="600">
                             <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
-                                    <i data-feather="skip-forward" className="fea icon-md"></i>
+                                    <i data-feather="server" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
                                     <h5 className="title">Enterprise Software Development</h5>
@@ -108,7 +108,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="compass" className="fea icons"></i>
+                                    <i data-feather="server" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ const Services = () => {
                         <div data-aos="fade-up" data-aos-duration="600">
                             <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
-                                    <i data-feather="settings" className="fea icon-md"></i>
+                                    <i data-feather="user-check" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
                                     <h5 className="title">Mentoring & Collaboration</h5>
@@ -146,7 +146,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="settings" className="fea icons"></i>
+                                    <i data-feather="user-check" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -154,9 +154,9 @@ const Services = () => {
 
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div data-aos="fade-up" data-aos-duration="600">
-                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
+                            <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-4" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
-                                    <i data-feather="watch" className="fea icon-md"></i>
+                                    <i data-feather="shuffle" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
                                     <h5 className="title">Data Integration & ETL</h5>
@@ -165,7 +165,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="watch" className="fea icons"></i>
+                                    <i data-feather="shuffle" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -175,7 +175,7 @@ const Services = () => {
                         <div data-aos="fade-up" data-aos-duration="600">
                             <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
-                                    <i data-feather="watch" className="fea icon-md"></i>
+                                    <i data-feather="layers" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
                                     <h5 className="title">System Integration</h5>
@@ -184,7 +184,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="watch" className="fea icons"></i>
+                                    <i data-feather="layers" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +194,7 @@ const Services = () => {
                         <div data-aos="fade-up" data-aos-duration="600">
                             <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
-                                    <i data-feather="watch" className="fea icon-md"></i>
+                                    <i data-feather="terminal" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
                                     <h5 className="title">Cloud & DevOps</h5>
@@ -203,7 +203,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="watch" className="fea icons"></i>
+                                    <i data-feather="terminal" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +213,7 @@ const Services = () => {
                         <div data-aos="fade-up" data-aos-duration="600">
                             <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
-                                    <i data-feather="watch" className="fea icon-md"></i>
+                                    <i data-feather="lock" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
                                     <h5 className="title">Security & Authentication</h5>
@@ -222,7 +222,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="watch" className="fea icons"></i>
+                                    <i data-feather="lock" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -232,7 +232,7 @@ const Services = () => {
                         <div data-aos="fade-up" data-aos-duration="600">
                             <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
-                                    <i data-feather="watch" className="fea icon-md"></i>
+                                    <i data-feather="tool" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
                                     <h5 className="title">Testing & Debugging</h5>
@@ -241,7 +241,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="watch" className="fea icons"></i>
+                                    <i data-feather="tool" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -251,16 +251,16 @@ const Services = () => {
                         <div data-aos="fade-up" data-aos-duration="600">
                             <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
-                                    <i data-feather="watch" className="fea icon-md"></i>
+                                    <i data-feather="edit-3" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
-                                    <h5 className="title">Multimedia & UI Design</h5>
+                                    <h5 className="title">Multimedia & UI/UX Design</h5>
                                     <p className="text-muted mt-3 mb-0">
                                         Background in multimedia design, with experience using Adobe Photoshop, Adobe Illustrator, CorelDraw and Figma + Adobe XD for UI/UX projects.
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="watch" className="fea icons"></i>
+                                    <i data-feather="edit-3" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -270,7 +270,7 @@ const Services = () => {
                         <div data-aos="fade-up" data-aos-duration="600">
                             <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
-                                    <i data-feather="watch" className="fea icon-md"></i>
+                                    <i data-feather="play-circle" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
                                     <h5 className="title">Game Development</h5>
@@ -279,7 +279,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="watch" className="fea icons"></i>
+                                    <i data-feather="play-circle" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -289,7 +289,7 @@ const Services = () => {
                         <div data-aos="fade-up" data-aos-duration="600">
                             <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
-                                    <i data-feather="watch" className="fea icon-md"></i>
+                                    <i data-feather="zap" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
                                     <h5 className="title">Animation</h5>
@@ -298,7 +298,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="watch" className="fea icons"></i>
+                                    <i data-feather="zap" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -308,16 +308,16 @@ const Services = () => {
                         <div data-aos="fade-up" data-aos-duration="600">
                             <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
-                                    <i data-feather="watch" className="fea icon-md"></i>
+                                    <i data-feather="camera" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
-                                    <h5 className="title">Photography Editing</h5>
+                                    <h5 className="title">Photography</h5>
                                     <p className="text-muted mt-3 mb-0">
                                         Experienced in professional photography techniques, including camera settings, lighting, and composition. Skilled in photo editing using Adobe Lightroom and Photoshop for retouching, color correction, and advanced image manipulation.
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="watch" className="fea icons"></i>
+                                    <i data-feather="camera" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>
@@ -327,7 +327,7 @@ const Services = () => {
                         <div data-aos="fade-up" data-aos-duration="600">
                             <div className="service-wrapper rounded position-relative text-center border border-footer p-4 pb-5" style={{alignContent: 'center'}}>
                                 <div className="icon" style={{ color: '#f89d36' }}>
-                                    <i data-feather="watch" className="fea icon-md"></i>
+                                    <i data-feather="film" className="fea icon-md"></i>
                                 </div>
                                 <div className="content mt-4">
                                     <h5 className="title">Video Editing</h5>
@@ -336,7 +336,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="big-icon">
-                                    <i data-feather="watch" className="fea icons"></i>
+                                    <i data-feather="film" className="fea icons"></i>
                                 </div>
                             </div>
                         </div>

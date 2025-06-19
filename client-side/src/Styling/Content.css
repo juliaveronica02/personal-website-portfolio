@@ -1,9 +1,15 @@
 .bg-home {
-    padding: 140px 0;
+    padding: 100px 0;
+    /* padding: 140px 0; */
     background-size: cover;
     align-self: center;
     position: relative;
     background-position: center center;
+}
+
+.important-text {
+    color: white !important;
+    text-align: justify;
 }
 
 .bg-overlay {
@@ -147,14 +153,17 @@ img.rounded-circle {
 }
 
 /* ABOUT */
-.section {
-    padding-top: 100px;
+.section-content {
+    padding-top: 25px;
     padding-bottom: 100px;
     position: relative;
 }
+
 .about-hero {
-    position: relative; /* Ensures :before is positioned relative to this container */
-    display: inline-block; /* Ensures it wraps around the image */
+    position: relative;
+    /* Ensures :before is positioned relative to this container */
+    display: inline-block;
+    /* Ensures it wraps around the image */
 }
 
 .about-hero:before {
@@ -180,17 +189,19 @@ img.rounded-circle {
 
 .text-muted {
     color: #8492a6 !important;
-  }
-  
-  a.text-muted:hover, a.text-muted:focus {
+}
+
+a.text-muted:hover,
+a.text-muted:focus {
     color: #68788f !important;
-  }
+}
 
 .interests-desc {
     transition: all 0.2s ease;
     color: #161c2d;
-  }
-  .interests-desc .hobbies:before {
+}
+
+.interests-desc .hobbies:before {
     content: "";
     position: absolute;
     width: 1px;
@@ -199,20 +210,27 @@ img.rounded-circle {
     left: 55px;
     background: #e9ecef;
     z-index: 1;
-  }
-  .interests-desc .icon {
+}
+
+.interests-desc .icon {
     width: 40px;
     transition: all 0.2s ease;
-  }
-  .interests-desc .title {
+}
+
+.interests-desc .title {
     font-weight: 500;
-  }
-  .interests-desc:hover {
+}
+
+.interests-desc:hover {
     background: #ffffff !important;
     box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15);
     transform: translateY(-5px);
-  }
-  .interests-desc:hover .icon {
+}
+
+.interests-desc:hover .icon {
     color: #f89d36;
-  }
-  
+}
+
+.row {
+    justify-content: center;
+}
